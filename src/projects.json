@@ -1,0 +1,23 @@
+
+[
+    {"id": 1, 
+    "title": "Ecommerce Website",
+     "description": "An Ecommerce Website I built as part of this unit. With a login system, contact form and even the ability to add items to your kart",
+      "image": "eCom.png",
+      "videoLink": null
+    },
+    {"id": 2,
+     "title": "Maze Solving Robot",
+      "description": "This robot used a single proximity sensor to its left and a light sensor in the front to navigate its way through a complex maze unassisted.",
+       "image": "maze.png",
+       "videoLink": "https://www.youtube.com/watch?v=o089bnHLR-4"
+    },
+    {"id": 3,
+     "title": "Automatic Plant Waterer",
+     "description": "An automatic plant watering system using an arduino. It read the soils moisture and when it droped too low it turned on a pump which watered the plant to a desired level.",
+      "image": "plantWater.png",
+      "videoLink": null
+    }
+    
+]
+  

@@ -1,0 +1,142 @@
+#app{
+    height: auto;
+    min-height: 100vh;
+    background-color: #dff8ff;
+    text-align: center;
+}
+
+table, th, tr, td{
+    border: 1px double black;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 90%;
+}
+thead{
+    background-color: aqua;
+}
+table tr:nth-child(even) {
+    background-color: #7a1717; /* Set the background color for even rows */
+    color: white;
+}
+
+  
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #000047;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: rgb(3, 29, 172);
+    color: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically within the nav container */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+nav li {
+    margin: 0 10px; /* Add some space between navigation items */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 2rem;
+}
+section{
+    margin-bottom: 3rem;
+}
+.project-image{
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 500px;
+}
+h2{
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+h3{
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+p{
+    color: #777;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin-bottom: 1rem;
+}
+
+.project-image{
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    max-height: 400px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+  }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    max-width: 90px;
+    margin-right: 10px;
+    align-self: flex-start;
+  }
+
+footer {
+    background-color: #000047;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 0px;
+
+}
+
+@media screen and (max-width: 900px) {
+    nav ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    text-align: center; /* Center text */
+  }
+  .project-image{
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 70%;
+}
+}
